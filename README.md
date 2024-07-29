@@ -46,8 +46,10 @@
 
 ## 🌐 Grupos Associados
 
-[![APECOF](https://apecof.org.br/images/APECOF/APECOF_JPG.jpeg)](https://apecof.org.br)
-[![FORTALSEC](https://media.licdn.com/dms/image/D4D0BAQE7T1lh7KL4LA/company-logo_200_200/0/1706533102362/fortalsec_logo?e=1730332800&v=beta&t=sr9fRz9IHsoRYZcZ3meVsI1n69hCou6BVc1Mwrdcsck)](https://www.fortalsec.org)
+<ul>
+  <li><strong>APECOF</strong> <br> <img src="https://apecof.org.br/images/APECOF/APECOF_JPG.jpeg" alt="APECOF" width="100" /></li>
+  <li><strong>FORTALSEC</strong> <br> <img src="https://media.licdn.com/dms/image/D4D0BAQE7T1lh7KL4LA/company-logo_200_200/0/1706533102362/fortalsec_logo?e=1730332800&v=beta&t=sr9fRz9IHsoRYZcZ3meVsI1n69hCou6BVc1Mwrdcsck" alt="FORTALSEC" width="100" /></li>
+</ul>
 
 Sinta-se à vontade para explorar meus repositórios e contribuir! Estou sempre buscando colaborar com a comunidade e aprender com outros profissionais.
 
