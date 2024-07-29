@@ -1,6 +1,12 @@
 # Bem-vindo ao Meu GitHub!
 
-👋 Sou Analista em Segurança da Informação com ampla experiência em SOC, SIEM e Threat Hunting. Iniciei minha carreira inovando processos de suporte técnico e, como Sysadmin, gerenciei virtualização, backup, sistemas operacionais, VoIP e ERP. Progridei para Analista de Redes, responsável pela administração de roteadores e switches em redes GPON/EPON. Como Technical SOC Leader, foquei na implementação e escalabilidade de SIEM, triagem de incidentes, criação de regras de segurança e análise comportamental. Atualmente, atuo como Purple Team Analyst, especializando-me em investigação computacional para identificar e mitigar ameaças, assegurando a segurança da informação e a continuidade dos negócios.
+👋 Sou  Gabriel, Analista em Segurança da Informação com ampla experiência em SOC, SIEM e Threat Hunting. Iniciei minha carreira inovando processos de suporte técnico e, como Sysadmin, gerenciei virtualização, backup, sistemas operacionais, VoIP e ERP. Progredi para Analista de Redes, onde fui responsável pela administração de roteadores e switches em redes GPON/EPON.
+
+Como Technical SOC Leader, foquei na implementação e escalabilidade de SIEM, triagem de incidentes, criação de regras de segurança e análise comportamental. Atualmente, atuo como Purple Team Analyst, especializando-me em investigação computacional para identificar e mitigar ameaças, assegurando a segurança da informação e a continuidade dos negócios.
+
+Aqui no meu GitHub, compartilho projetos, scripts e ferramentas relacionadas à segurança da informação. Fique à vontade para explorar, colaborar e aprender. Vamos juntos contribuir para um mundo digital mais seguro!
+
+Seja bem-vindo e boa navegação!
 
 ## 🌟 Sobre Mim
 
