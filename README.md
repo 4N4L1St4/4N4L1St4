@@ -1,6 +1,6 @@
 # Bem-vindo ao Meu GitHub!
 
-👋 Sou  Gabriel, Analista em Segurança da Informação com ampla experiência em SOC, SIEM e Threat Hunting. Iniciei minha carreira inovando processos de suporte técnico e, como Sysadmin, gerenciei virtualização, backup, sistemas operacionais, VoIP e ERP. Progredi para Analista de Redes, onde fui responsável pela administração de roteadores e switches em redes GPON/EPON.
+👋 Sou Gabriel, Analista em Segurança da Informação com ampla experiência em SOC, SIEM e Threat Hunting. Iniciei minha carreira inovando processos de suporte técnico e, como Sysadmin, gerenciei virtualização, backup, sistemas operacionais, VoIP e ERP. Progredi para Analista de Redes, onde fui responsável pela administração de roteadores e switches em redes GPON/EPON.
 
 Como Technical SOC Leader, foquei na implementação e escalabilidade de SIEM, triagem de incidentes, criação de regras de segurança e análise comportamental. Atualmente, atuo como Purple Team Analyst, especializando-me em investigação computacional para identificar e mitigar ameaças, assegurando a segurança da informação e a continuidade dos negócios.
 
@@ -10,16 +10,18 @@ Seja bem-vindo e boa navegação!
 
 ## 🌟 Sobre Mim
 
-- 🎓 **Certificações:**
-  - **Security+** - CompTIA
-  - **Sophos Engineer**
-  - **QRadar Foundation**
-  - **NSE 1, 2, 3** - Fortinet
+### 🎓 Certificações:
+<p align="center">
+  <img src="https://images.credly.com/size/340x340/images/74790a75-8451-400a-8536-92d792c5184a/CompTIA_Security_2Bce.png" alt="CompTIA Security+" width="100" height="100"/>
+  <img src="https://images.credly.com/size/340x340/images/066da2d7-4808-4f43-a1b9-f32f13872084/image.png" alt="Sophos Engineer" width="100" height="100"/>
+  <img src="https://images.credly.com/size/340x340/images/22a0ece5-ff05-4594-8320-25e55e9ae203/image.png" alt="QRadar Foundation" width="100" height="100"/>
+  <img src="https://media.licdn.com/dms/image/C560BAQEB6dJsFp9yCQ/company-logo_200_200/0/1630670621920/tenableinc_logo?e=1730332800&v=beta&t=eOz0E4u7aMxM1uk2mSNFFTxsckxzQXJ7sWr2DvDWaUE" alt="Tenable" width="100" height="100"/>
+</p>
 
-- 📚 **Formação:**
-  - **Computação Forense e Segurança da Informação** - Pós-graduação: Especialização em proteção de dados, produção de laudos e pareceres, análise de vestígios cibernéticos e recuperação de evidências.
-  - **Análise e Desenvolvimento de Sistemas**: Capacitação em projeto, documentação, especificação, teste, implementação e manutenção de sistemas computacionais e software.
-  - **Técnico em Redes de Computadores**: Formação em instalação, configuração e manutenção de redes de computadores, com destaque como monitor de laboratório.
+### 📚 Formação:
+- **Computação Forense e Segurança da Informação** - Pós-graduação: Especialização em proteção de dados, produção de laudos e pareceres, análise de vestígios cibernéticos e recuperação de evidências.
+- **Análise e Desenvolvimento de Sistemas**: Capacitação em projeto, documentação, especificação, teste, implementação e manutenção de sistemas computacionais e software.
+- **Técnico em Redes de Computadores**: Formação em instalação, configuração e manutenção de redes de computadores, com destaque como monitor de laboratório.
 
 - 🔍 Sempre em busca de novas tendências e atualizações em **cibersegurança**.
 
@@ -52,10 +54,10 @@ Seja bem-vindo e boa navegação!
 
 ## 🌐 Grupos Associados
 
-<ul>
-  <li><strong>APECOF</strong> <br> <img src="https://apecof.org.br/images/APECOF/APECOF_JPG.jpeg" alt="APECOF" width="100" /></li>
-  <li><strong>FORTALSEC</strong> <br> <img src="https://media.licdn.com/dms/image/D4D0BAQE7T1lh7KL4LA/company-logo_200_200/0/1706533102362/fortalsec_logo?e=1730332800&v=beta&t=sr9fRz9IHsoRYZcZ3meVsI1n69hCou6BVc1Mwrdcsck" alt="FORTALSEC" width="100" /></li>
-</ul>
+<p align="center">
+  <img src="https://apecof.org.br/images/APECOF/APECOF_JPG.jpeg" alt="APECOF" width="100" height="100"/>
+  <img src="https://media.licdn.com/dms/image/D4D0BAQE7T1lh7KL4LA/company-logo_200_200/0/1706533102362/fortalsec_logo?e=1730332800&v=beta&t=sr9fRz9IHsoRYZcZ3meVsI1n69hCou6BVc1Mwrdcsck" alt="FORTALSEC" width="100" height="100"/>
+</p>
 
 Sinta-se à vontade para explorar meus repositórios e contribuir! Estou sempre buscando colaborar com a comunidade e aprender com outros profissionais.
 
