@@ -54,8 +54,43 @@
 <h2>🌐 Grupos Associados</h2>
 
 <ul>
-  <li><strong>APECOF</strong> <br> <img src="https://apecof.org.br/images/APECOF/APECOF_JPG.jpeg" alt="APECOF" width="200" /></li>
-  <li><strong>FORTALSEC</strong> <br> <img src="https://media.licdn.com/dms/image/D4D0BAQE7T1lh7KL4LA/company-logo_200_200/0/1706533102362/fortalsec_logo?e=1730332800&v=beta&t=sr9fRz9IHsoRYZcZ3meVsI1n69hCou6BVc1Mwrdcsck" alt="FORTALSEC" width="200" /></li>
+  <li><strong>APECOF</strong> <br> <img src="https://apecof.org.br/images/APECOF/APECOF_JPG.jpeg" alt="APECOF" width="100" /></li>
+  <li><strong>FORTALSEC</strong> <br> <img src="https://media.licdn.com/dms/image/D4D0BAQE7T1lh7KL4LA/company-logo_200_200/0/1706533102362/fortalsec_logo?e=1730332800&v=beta&t=sr9fRz9IHsoRYZcZ3meVsI1n69hCou6BVc1Mwrdcsck" alt="FORTALSEC" width="100" /></li>
+</ul>
+
+<h2>📄 Currículo</h2>
+
+<h3>Nome</h3>
+<p>José Gabriel Oliveira de Souza</p>
+
+<h3>Experiência</h3>
+<ul>
+  <li><strong>Agosto/2019 – dezembro/2019</strong>: SOC • N1 de SOC • ITProtect</li>
+  <li><strong>Março/2020 – agosto/2020</strong>: Atendente • Atendente Diamante • Concentrix</li>
+  <li><strong>Agosto/2020 – abril/2022</strong>: NOC • Analista de Suporte Pleno • Navega Mais Telecom</li>
+  <li><strong>Abril/2022 – Janeiro/2024</strong>: SOC • Technical SOC Leader • Energy Telecom</li>
+  <li><strong>Janeiro/2024 – Atualmente</strong>: SOC • Purple Team Analyst • Cagece</li>
+</ul>
+
+<p>Sou Analista em segurança da informação com experiência em SOC, SIEM e Threat Hunting. Iniciei minha carreira inovando processos de suporte técnico e, como Sysadmin, fui responsável por virtualização, backup, sistemas operacionais, VoIP e ERP. Avancei para Analista de Redes, gerenciando roteadores e switches em redes GPON/EPON. Atuei como Technical SOC Leader, focando na implantação e dimensionamento de SIEM, triagem de incidentes, criação de regras de segurança e análise de comportamento. Atualmente, sou Purple Team Analyst, com habilidades em investigação computacional, trabalhando para identificar e mitigar ameaças, garantindo a segurança da informação e a continuidade dos negócios.</p>
+
+<h3>Formação</h3>
+<ul>
+  <li><strong>IPOG, Fortaleza, Ceará</strong> - completo
+    <ul>
+      <li>Computação Forense e Segurança da Informação - Pós-graduação: Proteger dados, produzir laudos e pareceres fundamentados em análises de vestígios cibernéticos, com conhecimentos necessários para exames de mídias em geral, coleta de dados em Sistemas Operacionais e recuperação de evidências.</li>
+    </ul>
+  </li>
+  <li><strong>Estácio, Fortaleza, Ceará</strong> - completo
+    <ul>
+      <li>Análise e Desenvolvimento de Sistemas: Projetar, documentar, especificar, testar, implementar e cuidar da manutenção de sistemas computacionais e software.</li>
+    </ul>
+  </li>
+  <li><strong>E.E.E.P Juarez Távora, Fortaleza, Ceará</strong> - completo
+    <ul>
+      <li>Técnico em Redes de Computadores: Instalar, configurar e fazer a manutenção em redes de computadores. Destacou-se como monitor de laboratório na maioria das cadeiras do curso.</li>
+    </ul>
+  </li>
 </ul>
 
 <p>Sinta-se à vontade para explorar meus repositórios e contribuir! Sempre busco colaborar com a comunidade e aprender com outros profissionais.</p>
