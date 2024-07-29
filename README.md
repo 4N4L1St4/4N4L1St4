@@ -39,8 +39,6 @@ Seja bem-vindo e boa navegação!
 - **Projeto X**  
   Descrição breve do Projeto X e seus objetivos.
 
-- **Projeto Y**  
-  Descrição breve do Projeto Y e seus objetivos.
 
 ## 📫 Contato
 
@@ -55,6 +53,6 @@ Seja bem-vindo e boa navegação!
   <img src="https://media.licdn.com/dms/image/D4D0BAQE7T1lh7KL4LA/company-logo_200_200/0/1706533102362/fortalsec_logo?e=1730332800&v=beta&t=sr9fRz9IHsoRYZcZ3meVsI1n69hCou6BVc1Mwrdcsck" alt="FORTALSEC" width="100" height="100"/>
 </p>
 
-Sinta-se à vontade para explorar meus repositórios e contribuir! Estou sempre buscando colaborar com a comunidade e aprender com outros profissionais.
+##
 
 ⭐️ Não se esqueça de seguir e dar uma estrela nos projetos que você gostar!
