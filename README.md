@@ -7,9 +7,7 @@ Como Technical SOC Leader, foquei na implementação e escalabilidade de SIEM, t
 Aqui no meu GitHub, compartilho projetos, scripts e ferramentas relacionadas à segurança da informação. Fique à vontade para explorar, colaborar e aprender. Vamos juntos contribuir para um mundo digital mais seguro!
 
 Seja bem-vindo e boa navegação!
-
-## 🌟 Sobre Mim
-
+##
 ### 🎓 Certificações:
 <p align="center">
   <img src="https://images.credly.com/size/340x340/images/74790a75-8451-400a-8536-92d792c5184a/CompTIA_Security_2Bce.png" alt="CompTIA Security+" width="100" height="100"/>
