@@ -28,17 +28,12 @@ Descrição breve do projeto X e seu objetivo.
 Descrição breve do projeto Y e seu objetivo.
 
 - 📫 Contato
-<div style="display: inline_block"><br>
-  <img align="center" alt="Certificações-Security+" height="30" width="40" src="https://example.com/path/to/securityplus.png">
-  <img align="center" alt="Certificações-Sophos" height="30" width="40" src="https://example.com/path/to/sophos.png">
-  <img align="center" alt="Certificações-QRadar" height="30" width="40" src="https://example.com/path/to/qradar.png">
-  <img align="center" alt="Certificações-NSE" height="30" width="40" src="https://example.com/path/to/nse.png">
-</div>
 <div> 
   <a href="https://www.linkedin.com/in/seu-usuario/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   <a href="mailto:seuemail@exemplo.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.instagram.com/analistagabriel.exe/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 </div>
+
 Sinta-se à vontade para explorar meus repositórios e contribuir! Sempre busco colaborar com a comunidade e aprender com outros profissionais.
 
 ⭐️ Não se esqueça de seguir e dar uma estrela nos projetos que você gostar!
