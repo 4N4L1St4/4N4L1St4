@@ -1,32 +1,41 @@
 <h1>Bem-vindo ao Meu GitHub!</h1>
 
-<p>👋 Sou Analista em Segurança da Informação com vasta experiência em SOC, SIEM e Threat Hunting. Minha carreira começou com a inovação de processos de suporte técnico e, como Sysadmin, gerenciei virtualização, backup, sistemas operacionais, VoIP e ERP. Evoluí para Analista de Redes, cuidando da administração de roteadores e switches em redes GPON/EPON. Como Technical SOC Leader, concentrei-me na implementação e escalabilidade de SIEM, triagem de incidentes, criação de regras de segurança e análise comportamental. Atualmente, atuo como Purple Team Analyst, especializando-me em investigação computacional para identificar e mitigar ameaças, garantindo a segurança da informação e a continuidade dos negócios.</p>
+<p>👋 Sou Analista em Segurança da Informação com ampla experiência em SOC, SIEM e Threat Hunting. Iniciei minha carreira inovando processos de suporte técnico e, como Sysadmin, gerenciei virtualização, backup, sistemas operacionais, VoIP e ERP. Progridei para Analista de Redes, responsável pela administração de roteadores e switches em redes GPON/EPON. Como Technical SOC Leader, foquei na implementação e escalabilidade de SIEM, triagem de incidentes, criação de regras de segurança e análise comportamental. Atualmente, atuo como Purple Team Analyst, especializando-me em investigação computacional para identificar e mitigar ameaças, assegurando a segurança da informação e a continuidade dos negócios.</p>
 
 <h2>🌟 Sobre Mim</h2>
 
 <ul>
   <li>🎓 <strong>Certificações</strong>:
     <ul>
-      <li><strong>Security+</strong> da CompTIA</li>
+      <li><strong>Security+</strong> - CompTIA</li>
       <li><strong>Sophos Engineer</strong></li>
       <li><strong>QRadar Foundation</strong></li>
-      <li><strong>NSE 1, 2, 3</strong> da Fortinet</li>
+      <li><strong>NSE 1, 2, 3</strong> - Fortinet</li>
     </ul>
   </li>
   <li>📚 <strong>Formação</strong>:
     <ul>
-      <li><strong>Computação Forense e Segurança da Informação</strong> - Pós-graduação: Foco em proteger dados, produzir laudos e pareceres, além de análises de vestígios cibernéticos e recuperação de evidências.</li>
-      <li><strong>Análise e Desenvolvimento de Sistemas</strong>: Capacitação em projetar, documentar, especificar, testar, implementar e manter sistemas computacionais e software.</li>
+      <li><strong>Computação Forense e Segurança da Informação</strong> - Pós-graduação: Especialização em proteção de dados, produção de laudos e pareceres, além de análise de vestígios cibernéticos e recuperação de evidências.</li>
+      <li><strong>Análise e Desenvolvimento de Sistemas</strong>: Capacitação em projeto, documentação, especificação, teste, implementação e manutenção de sistemas computacionais e software.</li>
       <li><strong>Técnico em Redes de Computadores</strong>: Formação em instalação, configuração e manutenção de redes de computadores, com destaque como monitor de laboratório.</li>
     </ul>
   </li>
-  <li>🔍 Sempre estudando e me atualizando sobre as últimas tendências e ameaças em <strong>cibersegurança</strong>.</li>
+  <li>🔍 Sempre em busca de novas tendências e atualizações em <strong>cibersegurança</strong>.</li>
   <li>💼 <strong>Minhas Atividades</strong>:
     <ul>
-      <li>Identificação de vulnerabilidades</li>
-      <li>Avaliação e mitigação de riscos</li>
-      <li>Elaboração de relatórios detalhados sobre o estado da segurança</li>
-      <li>Implementação de práticas de segurança eficazes</li>
+      <li>Mapeamento de camadas de segurança na empresa</li>
+      <li>Análise de superfícies de ataque</li>
+      <li>Prática em CTI, OSINT e TTPs</li>
+      <li>Mapeamento de novos vazamentos e CVEs</li>
+      <li>Gestão de resolução de vulnerabilidades</li>
+      <li>Acompanhamento de rotina de pentest</li>
+      <li>Melhoria das atividades do SIEM:
+        <ul>
+          <li>Atendimento a chamados abertos pelo SIEM</li>
+          <li>Adição de fontes de logs com base no mapeamento de superfícies de ataque</li>
+          <li>Criação de casos de uso com base nas atividades de GV e relatórios de pentest</li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
@@ -60,11 +69,15 @@
 
 <h2>🌐 Grupos Associados</h2>
 
-<ul>
-  <li><strong>APECOF</strong> <br> <img src="https://apecof.org.br/images/APECOF/APECOF_JPG.jpeg" alt="APECOF" width="100" /></li>
-  <li><strong>FORTALSEC</strong> <br> <img src="https://media.licdn.com/dms/image/D4D0BAQE7T1lh7KL4LA/company-logo_200_200/0/1706533102362/fortalsec_logo?e=1730332800&v=beta&t=sr9fRz9IHsoRYZcZ3meVsI1n69hCou6BVc1Mwrdcsck" alt="FORTALSEC" width="100" /></li>
-</ul>
+<div style="display: flex; gap: 10px;">
+  <a href="https://apecof.org.br" target="_blank">
+    <img src="https://apecof.org.br/images/APECOF/APECOF_JPG.jpeg" alt="APECOF" width="80" />
+  </a>
+  <a href="https://www.fortalsec.org" target="_blank">
+    <img src="https://media.licdn.com/dms/image/D4D0BAQE7T1lh7KL4LA/company-logo_200_200/0/1706533102362/fortalsec_logo?e=1730332800&v=beta&t=sr9fRz9IHsoRYZcZ3meVsI1n69hCou6BVc1Mwrdcsck" alt="FORTALSEC" width="80" />
+  </a>
+</div>
 
-<p>Sinta-se à vontade para explorar meus repositórios e contribuir! Sempre busco colaborar com a comunidade e aprender com outros profissionais.</p>
+<p>Sinta-se à vontade para explorar meus repositórios e contribuir! Estou sempre buscando colaborar com a comunidade e aprender com outros profissionais.</p>
 
 <p>⭐️ Não se esqueça de seguir e dar uma estrela nos projetos que você gostar!</p>
