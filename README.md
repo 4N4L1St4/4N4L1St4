@@ -23,8 +23,6 @@ Seja bem-vindo e boa navegação!
 - **Análise e Desenvolvimento de Sistemas**: Capacitação em projeto, documentação, especificação, teste, implementação e manutenção de sistemas computacionais e software.
 - **Técnico em Redes de Computadores**: Formação em instalação, configuração e manutenção de redes de computadores, com destaque como monitor de laboratório.
 
-- 🔍 Sempre em busca de novas tendências e atualizações em **cibersegurança**.
-
 ## 💼 Minhas Atividades
 
 - Mapeamento de camadas de segurança na empresa
