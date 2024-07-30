@@ -37,14 +37,25 @@ Seja bem-vindo e boa navegação!
 ## 🚀 Projetos
 
 - **SOC (Security Operations Center)**  
-  O SOC (Security Operations Center) protege a organização contra ameaças cibernéticas, gerenciando soluções SIEM (Qradar, FortiSIEM, Wazuh) para detectar e responder a incidentes. Ele realiza a gestão de vulnerabilidades, investigações forenses, e pratica Threat Hunting para identificar e mitigar riscos. O SOC assegura a defesa cibernética robusta e a conformidade contínua dos ativos da organização.  
+  O SOC (Security Operations Center) é fundamental para a proteção contra ameaças cibernéticas. Ele utiliza soluções SIEM (como QRadar, FortiSIEM e Wazuh) para detectar e responder a incidentes. Além disso, o SOC gerencia vulnerabilidades, realiza investigações forenses e emprega técnicas de Threat Hunting para identificar e mitigar riscos. Seu objetivo é garantir uma defesa cibernética robusta e a conformidade contínua dos ativos da organização.
 
-  [Link para o projeto SOC](https://github.com/4NL1St4/4NL1St4/blob/main/SOC%20(Security%20Operations%20Center))
+  [Link para o projeto SOC](https://github.com/4NL1St4/4NL1St4/blob/main/SOC.md)
 
 - **NOC (Network Operations Center)**  
-  O NOC (Network Operations Center) gerencia e monitora a infraestrutura de TI de uma organização, incluindo redes, roteadores, switches, sistemas VoIP e servidores. Ele é responsável pela virtualização, backup, recuperação de dados e utilização de ferramentas de monitoramento para garantir a disponibilidade e desempenho dos sistemas. O NOC também automatiza tarefas e integra sistemas para manter a operação eficiente e sem interrupções. 
+  O NOC (Network Operations Center) é responsável pela gestão e monitoramento da infraestrutura de TI, incluindo redes, roteadores, switches, sistemas VoIP e servidores. Ele assegura a continuidade das operações através da virtualização, backup, recuperação de dados e uso de ferramentas de monitoramento. O NOC também automatiza tarefas e integra sistemas para manter uma operação eficiente e sem interrupções.
 
-  [Link para o projeto NOC](https://github.com/4NL1St4/4NL1St4/blob/main/NOC%20(Network%20Operations%20Center))
+  [Link para o projeto NOC](https://github.com/4NL1St4/4NL1St4/blob/main/NOC.md)
+
+- **Resolução de Incidentes (SNOC)**  
+  O projeto de Resolução de Incidentes (SNOC) aborda a abordagem sistemática para identificar, responder e resolver incidentes de segurança. Você encontrará informações sobre mitigação de vulnerabilidades, detecção e resposta a incidentes, recuperação de sistemas e criação de relatórios detalhados. Este guia é útil para aprimorar a capacidade de lidar com crises e garantir a continuidade dos negócios.
+
+  [Link para o projeto SNOC](https://github.com/4NL1St4/4NL1St4/blob/main/SNOC.md)
+
+- **Artigos**  
+  Esta seção contém uma coleção de artigos sobre estudos e práticas relacionadas a segurança da informação e operações de TI. Os artigos abordam diversos tópicos, desde análises detalhadas até recomendações práticas, oferecendo insights valiosos para quem deseja aprofundar seu conhecimento na área.
+
+  [Link para o projeto Artigos](https://github.com/4NL1St4/4NL1St4/blob/main/Artigo.md)
+
 
 
 
