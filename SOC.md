@@ -47,3 +47,5 @@
     - [🎯 Técnicas de Hunting](#técnicas-de-hunting)
     - [🛠️ Ferramentas de Threat Hunting](#ferramentas-de-threat-hunting)
     - [🔍 Indicadores de Comprometimento (IOCs)](#indicadores-de-comprometimento-iocs)
+ - Documento termo de confidencialidade
+ - Modelo de (PSI) Politica de segurança da informação
