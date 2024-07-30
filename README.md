@@ -37,11 +37,13 @@ Seja bem-vindo e boa navegação!
 ## 🚀 Projetos
 
 - **SOC (Security Operations Center)**  
-  Descrição breve do projeto SOC e seus objetivos.  
+  O SOC (Security Operations Center) protege a organização contra ameaças cibernéticas, gerenciando soluções SIEM (Qradar, FortiSIEM, Wazuh) para detectar e responder a incidentes. Ele realiza a gestão de vulnerabilidades, investigações forenses, e pratica Threat Hunting para identificar e mitigar riscos. O SOC assegura a defesa cibernética robusta e a conformidade contínua dos ativos da organização.  
+
   [Link para o projeto SOC](https://github.com/4NL1St4/4NL1St4/blob/main/SOC%20(Security%20Operations%20Center))
 
 - **NOC (Network Operations Center)**  
-  Descrição breve do projeto NOC e seus objetivos.  
+  O NOC (Network Operations Center) gerencia e monitora a infraestrutura de TI de uma organização, incluindo redes, roteadores, switches, sistemas VoIP e servidores. Ele é responsável pela virtualização, backup, recuperação de dados e utilização de ferramentas de monitoramento para garantir a disponibilidade e desempenho dos sistemas. O NOC também automatiza tarefas e integra sistemas para manter a operação eficiente e sem interrupções. 
+
   [Link para o projeto NOC](https://github.com/4NL1St4/4NL1St4/blob/main/NOC%20(Network%20Operations%20Center))
 
 
