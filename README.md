@@ -36,8 +36,14 @@ Seja bem-vindo e boa navegação!
 
 ## 🚀 Projetos
 
-- **Projeto X**  
-  Descrição breve do Projeto X e seus objetivos.
+- **SOC (Security Operations Center)**  
+  Descrição breve do projeto SOC e seus objetivos.  
+  [Link para o projeto SOC](https://github.com/4NL1St4/4NL1St4/blob/main/SOC%20(Security%20Operations%20Center))
+
+- **NOC (Network Operations Center)**  
+  Descrição breve do projeto NOC e seus objetivos.  
+  [Link para o projeto NOC](https://github.com/4NL1St4/4NL1St4/blob/main/NOC%20(Network%20Operations%20Center))
+
 
 
 ## 📫 Contato
