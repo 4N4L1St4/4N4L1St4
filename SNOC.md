@@ -38,3 +38,4 @@
   - [🔬 Análise de Malware](#análise-de-malware)
   - [🔄 Engenharia Reversa](#engenharia-reversa)
   - [🛡️ Avaliação e Mitigação](#avaliação-e-mitigação)
+  - [🔍 Execução de Comandos](#avaliação-e-mitigação)
