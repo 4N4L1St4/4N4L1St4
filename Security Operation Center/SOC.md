@@ -29,9 +29,9 @@
 
 - [🛡️ SOC (Security Operations Center)](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20Security%20Operations%20Center%20(SOC).md)
   - [🔍 SIEM (Security Information and Event Management)](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20SIEM%20(Security%20Information%20and%20Event%20Management).md)
-    - [⚙️ Implementação de SIEM]((https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20Implementa%C3%A7%C3%A3o%20de%20SIEM.md))
+    - [⚙️ Implementação de SIEM](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20Implementa%C3%A7%C3%A3o%20de%20SIEM.md)
       - [📄 Documento de Requisição de Log Source](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20Documento%20de%20Requisi%C3%A7%C3%A3o%20de%20Log%20Source.md)
-      - [📧 Documento de Solicitação de Contato para o Cliente]((https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20Documento%20de%20Solicita%C3%A7%C3%A3o%20de%20Contato%20para%20o%20Cliente.md))
+      - [📧 Documento de Solicitação de Contato para o Cliente](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20Documento%20de%20Solicita%C3%A7%C3%A3o%20de%20Contato%20para%20o%20Cliente.md)
       - [🔧 Documento de Passo a Passo de Instalação de Agente](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20Passo%20a%20Passo%20de%20Instala%C3%A7%C3%A3o%20de%20Agente.md)
         - [🐧 Linux](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20Passo%20a%20Passo%20de%20Instala%C3%A7%C3%A3o%20de%20Agente.md)
         - [💻 Windows](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20Passo%20a%20Passo%20de%20Instala%C3%A7%C3%A3o%20de%20Agente.md)
