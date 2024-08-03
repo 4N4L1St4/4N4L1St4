@@ -42,7 +42,7 @@
     - [📊 Relatórios de Conformidade](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20Relat%C3%B3rios%20de%20Conformidade.md)
   - [🕵️ Investigação Forense](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20Investiga%C3%A7%C3%A3o%20Forense.md)
     - [🔬 Coleta de Evidências](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20Coleta%20de%20Evid%C3%AAncias.md)
-    - [🧪 Análise Forense Digital para Software Serem Homologados](#análise-forense-digital-para-software-serem-homologados)
+    - [🧪 Análise Forense Digital para Software Serem Homologados](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20Analise%20Forense%20Digital%20para%20Software.md)
   - [🔍 Threat Hunting](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20Threat%20Hunting.md)
     - [🎯 Técnicas de Hunting](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20T%C3%A9cnicas%20de%20Hunting.md)
     - [🛠️ Ferramentas de Threat Hunting](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/CONTEUDO/Guia%20de%20Ferramentas%20de%20Threat%20Hunting.md)
