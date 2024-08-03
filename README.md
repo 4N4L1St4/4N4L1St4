@@ -39,17 +39,17 @@ Seja bem-vindo e boa navegação!
 - **SOC (Security Operations Center)**  
   O SOC (Security Operations Center) é fundamental para a proteção contra ameaças cibernéticas. Ele utiliza soluções SIEM (como QRadar, FortiSIEM e Wazuh) para detectar e responder a incidentes. Além disso, o SOC gerencia vulnerabilidades, realiza investigações forenses e emprega técnicas de Threat Hunting para identificar e mitigar riscos. Seu objetivo é garantir uma defesa cibernética robusta e a conformidade contínua dos ativos da organização.
 
-  [Link para o projeto SOC]([https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/SOC.md])
+  [Link para o projeto SOC](https://github.com/4N4L1St4/4N4L1St4/blob/main/Security%20Operation%20Center/SOC.md)
 
 - **NOC (Network Operations Center)**  
   O NOC (Network Operations Center) é responsável pela gestão e monitoramento da infraestrutura de TI, incluindo redes, roteadores, switches, sistemas VoIP e servidores. Ele assegura a continuidade das operações através da virtualização, backup, recuperação de dados e uso de ferramentas de monitoramento. O NOC também automatiza tarefas e integra sistemas para manter uma operação eficiente e sem interrupções.
 
-  [Link para o projeto NOC]([https://github.com/4N4L1St4/4N4L1St4/blob/main/Network%20Operation%20Center/NOC.md])
+  [Link para o projeto NOC](https://github.com/4N4L1St4/4N4L1St4/blob/main/Network%20Operation%20Center/NOC.md)
 
 - **Resolução de Incidentes (SNOC)**  
   O projeto de Resolução de Incidentes (SNOC) aborda a abordagem sistemática para identificar, responder e resolver incidentes de segurança. Você encontrará informações sobre mitigação de vulnerabilidades, detecção e resposta a incidentes, recuperação de sistemas e criação de relatórios detalhados. Este guia é útil para aprimorar a capacidade de lidar com crises e garantir a continuidade dos negócios.
 
-  [Link para o projeto SNOC]([https://github.com/4N4L1St4/4N4L1St4/blob/main/War%20Room/SNOC.md])
+  [Link para o projeto SNOC](https://github.com/4N4L1St4/4N4L1St4/blob/main/War%20Room/SNOC.md)
 
 - **Artigos**  
   Esta seção contém uma coleção de artigos sobre estudos e práticas relacionadas a segurança da informação e operações de TI. Os artigos abordam diversos tópicos, desde análises detalhadas até recomendações práticas, oferecendo insights valiosos para quem deseja aprofundar seu conhecimento na área.
