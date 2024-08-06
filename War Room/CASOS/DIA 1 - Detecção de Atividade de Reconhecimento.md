@@ -1,34 +1,46 @@
 <p align="center">
-  <a href="https://www.scnsoft.com/blog-pictures/infrastructure/noc.png">
-    <img src="./images/guia.png" alt="Detecção de Atividade de Reconhecimento" width="160" height="160">
+  <a href="SUA_URL_DE_IMAGEM">
+    <img src="./images/guia.png" alt="Application Layer Protocol: Application Layer Protocols" width="160" height="160">
   </a>
-  <h1 align="center">Detecção de Atividade de Reconhecimento: Como Proteger Sua Infraestrutura</h1>
+  <h1 align="center">"Monitorar e responder a tentativas de mapeamento da rede e descoberta de serviços."</h1>
 </p>
 
-## :dart: O guia para alavancar a sua carreira
+## :dart: Assunto e Tema
 
-No cenário atual de segurança cibernética, a detecção de atividade de reconhecimento é fundamental para evitar ataques que possam comprometer toda a rede. Este artigo explora a técnica T1071.001 - Application Layer Protocols e como monitorar e responder a tentativas de mapeamento da rede e descoberta de serviços. Através de uma história envolvente, vamos seguir uma equipe de profissionais de segurança da informação enquanto enfrentam um incidente que ameaça a segurança da empresa.
+**Assunto:** Detecção de Atividade de Reconhecimento
+
+**TTP:** T1071.001 - Application Layer Protocol: Application Layer Protocols
+
+**Motivo:** Monitorar e responder a tentativas de mapeamento da rede e descoberta de serviços.
+
+## :dart: O guia para "A Invasão do Dia de Ano Novo"
+
+Em um tranquilo dia 1º de janeiro de 2024, a maioria dos funcionários da empresa TechSecure estava em férias comemorando a virada do ano. Poucas pessoas estavam atentas à rede, o que parecia ser uma oportunidade perfeita para um ataque. Mas a equipe de segurança estava preparada para qualquer eventualidade.
 
 ## :dart: Conteúdo
 
-### Início da História
+### Início
 
-Era uma manhã tranquila no escritório da TechSecure. John, responsável pelos backups, estava conferindo os logs do dia anterior quando notou algo estranho: um aumento súbito no tráfego de rede em um dos servidores. Ao mesmo tempo, Gustavo, o especialista em regras de firewall, também percebeu uma atividade incomum, com várias tentativas de conexão vindas de um endereço IP desconhecido. Paulo, que gerencia as redes e conexões entre as unidades da empresa, foi rapidamente informado e iniciou uma análise para identificar possíveis falhas na segmentação da rede.
+Era um feriado universal no Brasil, e a empresa TechSecure estava com a equipe reduzida. John, responsável pelos backups, estava de plantão, mas Gustavo, responsável pelas regras do firewall, e Paulo, responsável pela rede, estavam ausentes. Bruna, encarregada do pós-mortem, e Ilana, responsável pela conscientização em segurança, também estavam de férias. No entanto, Pablo estava atento a qualquer sinal de atividade suspeita.
 
-### Impacto do Problema
+Durante a madrugada, Pablo notou um aumento incomum de tráfego na rede. Utilizando o XDR da SentinelOne e o SIEM QRadar, ele detectou padrões que indicavam uma possível tentativa de mapeamento da rede. A equipe sabia que essas atividades poderiam estar associadas ao TTP T1071.001, que envolve o uso de protocolos de aplicação para reconhecimento.
 
-À medida que a equipe se mobilizava, Pablo, o analista de malware, recebeu uma notificação de uma potencial ameaça detectada em um dos e-mails de phishing recentes que a empresa tinha recebido. A atividade anômala começou a levantar suspeitas de que um ataque mais elaborado estava em andamento. Ilana, encarregada da conscientização e campanhas de segurança, começou a preparar comunicados internos para alertar os funcionários sobre o aumento da vigilância.
+### Impacto
 
-Com a investigação em andamento, Bruna, que conduz os resumos pós-incidente, já começou a coletar dados para um relatório completo, percebendo que a situação estava escalando rapidamente.
+O tráfego anômalo estava explorando as camadas de aplicação da rede, tentando descobrir serviços expostos e mapeando a topologia da infraestrutura. Se não fosse contido, o ataque poderia comprometer informações sensíveis e abrir portas para acessos não autorizados. O firewall Checkpoint estava sendo sobrecarregado, e a falta de atualização de algumas regras estava permitindo que o tráfego não desejado passasse.
 
-### Resolução e Remediação
+### Resolução
 
-A equipe percebeu que estavam diante de uma atividade de reconhecimento - o atacante estava tentando mapear a rede e descobrir quais serviços estavam disponíveis para explorar vulnerabilidades. Gustavo, rapidamente, reforçou as regras de firewall, bloqueando o IP suspeito e ativando alertas para qualquer tentativa de conexão semelhante. Paulo revisou as configurações de VLANs e VPNs, garantindo que os segmentos críticos estivessem protegidos contra acessos não autorizados.
+Paulo, após receber uma notificação do QRadar, iniciou uma revisão das regras do firewall. Gustavo, mesmo de férias, foi contatado para fornecer orientações sobre as regras de firewall. Ele recomendou a criação de uma regra adicional para bloquear o tráfego suspeito e restringir o acesso aos serviços sensíveis.
 
-Pablo, enquanto isso, isolou o servidor comprometido para realizar uma análise detalhada, descobrindo um script malicioso que tentava exfiltrar dados usando protocolos de camada de aplicação. Ele colaborou com Gustavo para bloquear o tráfego identificado e remover a ameaça.
+Pablo também começou a analisar o tráfego suspeito com o auxílio do WAF e do Zabbix + Grafana para identificar e mitigar a ameaça. A equipe de resposta usou scripts PowerShell e ShellScript para automatizar a atualização das regras do firewall e aplicar patches rápidos nos servidores.
 
-Por fim, Bruna compilou um relatório detalhado, destacando as ações tomadas e sugerindo melhorias para evitar incidentes futuros. Ilana lançou uma nova campanha de conscientização, reforçando a importância de práticas seguras, como evitar clicar em links suspeitos e relatar atividades incomuns.
+Com a ajuda do sistema de backup Veeam, John restaurou as configurações anteriores que estavam comprometidas. O uso do PAM CyberArk foi crucial para garantir que as credenciais de acesso permanecessem seguras e não fossem utilizadas pelos invasores.
 
-### Conclusão
+### Implantação de Medidas de Segurança
 
-O incidente foi contido com sucesso, mas a equipe da TechSecure sabe que a batalha contra os cibercriminosos é contínua. A experiência reforçou a importância de uma detecção rápida e de respostas coordenadas para mitigar danos e proteger a infraestrutura da empresa.
+Após a resolução do incidente, Bruna foi encarregada de realizar um pós-mortem detalhado para entender o que aconteceu e como melhorar as defesas. Ela elaborou um relatório que incluía a necessidade de uma revisão das regras de firewall e a implementação de políticas mais rígidas de monitoramento.
+
+Ilana desenvolveu campanhas de conscientização sobre a importância de manter a vigilância constante, mesmo durante períodos de férias, e sobre como reconhecer sinais de atividades suspeitas. A equipe decidiu integrar o Tenable para uma gestão mais eficaz das vulnerabilidades e realizar treinamentos regulares para a equipe de segurança.
+
+Para reforçar a segurança futura, a TechSecure atualizou suas práticas de monitoramento e resposta, incluindo o aprimoramento dos controles de acesso, a implementação de novos alertas no SIEM QRadar e a revisão dos protocolos de segurança em seus ambientes de servidores e clientes.
