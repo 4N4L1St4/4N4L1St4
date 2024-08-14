@@ -148,3 +148,7 @@
 - **Controle de Segurança de Dados em Nuvem**
   - **TTP:** [T1531 - Account Access Removal](https://attack.mitre.org/techniques/T1531)
   - **Motivo:** Monitorar e gerenciar o acesso a dados em ambientes de nuvem para prevenir exfiltração e abuso.
+ 
+  ## ⚠️ Lista de Comandos
+- **Gerenciamento de Abuso de Scripts**
+  - **[Lista de Comandos](https://gmail.com) **
