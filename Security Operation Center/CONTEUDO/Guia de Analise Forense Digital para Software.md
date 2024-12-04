@@ -77,6 +77,36 @@ A análise forense digital deve ser conduzida de acordo com princípios legais e
 - **Legislação de Proteção de Dados:** Respeitar leis de privacidade e proteção de dados durante a análise.
 - **Procedimentos de Segurança:** Seguir procedimentos para garantir a segurança e a integridade das informações analisadas.
 
+### 8. Prática: Análise de Software e Aplicativos
+
+#### Baixe o Sigcheck
+
+Antes de iniciar, baixe o Sigcheck no link abaixo:  
+[Download Sigcheck](https://download.sysinternals.com/files/Sigcheck.zip)
+
+---
+
+#### **Utilizando o Sigcheck**
+
+O Sigcheck é um utilitário de linha de comando poderoso que oferece as seguintes funcionalidades:
+
+- Mostra o número da versão do arquivo, carimbos de data/hora e detalhes da assinatura digital, incluindo cadeias de certificados.
+- Permite verificar o status de um arquivo no VirusTotal, um site que realiza varredura automatizada em mais de 40 mecanismos antivírus.
+- Possui opção para carregar arquivos diretamente para verificação.
+
+---
+
+#### **Verificação no VirusTotal**
+
+##### Exemplo de comando no CMD:
+
+Usando o `sigcheck64` para verificar arquivos no VirusTotal com base em hashes MD5 listados em um arquivo (`hashmd55.txt`):
+
+```cmd
+for /f "delims=," %x in (hashmd55.txt) do @(sigcheck64 -nobanner -vt -a -h -c "%x") >> qlqrcoisa.txt
+```
+
+
 ### Conclusão
 
 A análise forense digital é uma etapa essencial na homologação de software, garantindo que o software seja seguro, íntegro e conforme com os padrões e regulamentações estabelecidos. Realizar uma análise detalhada e documentada pode ajudar a identificar e corrigir problemas antes da implementação, assegurando um ambiente de software seguro e confiável.
