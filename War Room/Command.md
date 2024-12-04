@@ -1010,7 +1010,7 @@
   #!/bin/bash
 
   if [ $# -eq 0 ]; then
-          >&2 echo "Usage: $0 <folder_name>"
+          >&2 echo "Usage: $0 <folder_name>" 
           exit 1
   else
           LGRAY='\e[90m'
@@ -1033,4 +1033,38 @@
           rm fileA fileB
   fi
   ```
+  1. Verificar o Mapeamento Atual
+# curl -k --user <ColoqueSeuUsuario>:<ColoqueSuaSenha> -X GET 'https://172.16.0.171:9200/winlogbeat-7.15.2-2024.09.04-000069/_mapping'
 
+2. Comparar com o Template
+# curl -k --user <ColoqueSeuUsuario>:<ColoqueSuaSenha> -X GET 'https://172.16.0.171:9200/_template/winlogbeat-7.15.2'
+
+3. Copiando índice de A para B
+# curl -k --user <ColoqueSeuUsuario>:<ColoqueSuaSenha> -X POST 'https://172.16.0.171:9200/_reindex' -H 'Content-Type: application/json' -d '{"source": {"index": "winlogbeat-7.15.2-2024.09.03-000067"}, "dest": {"index": "winlogbeat-7.15.2-2024.09.04-000068"}}'
+
+4. Verificar o Status da Política ILM
+curl -k --user <ColoqueSeuUsuario>:<ColoqueSuaSenha> -X GET 'https://172.16.0.171:9200/_ilm/policy'
+
+2. Verificar o Índice e o Ciclo de Vida
+curl -k --user <ColoqueSeuUsuario>:<ColoqueSuaSenha> -X GET 'https://172.16.0.171:9200/_ilm/explain/winlogbeat-7.15.2-2024.09.04-000068'
+
+4. Consultar Índices de Aliases
+curl -k --user <ColoqueSeuUsuario>:<ColoqueSuaSenha> -X GET 'https://172.16.0.171:9200/_cat/aliases?v'
+
+5. Reboot serviços ELK
+systemctl restart elasticsearch.service kibana.service metricbeat.service
+
+1. df - Exibir o Espaço em Disco
+O comando df mostra a quantidade de espaço em disco utilizado e disponível em sistemas de arquivos montados.
+
+df -h
+
+8. du -h --max-depth=1 - Ver Uso de Disco por Diretório
+Para obter uma visão geral do uso de disco por diretório no nível superior:
+
+du -h --max-depth=1
+
+> schtasks /create /tn "Iniciar Winlogbeat" /tr "net start winlogbeat" /sc minute /mo 5 /f
+SUCCESS: The scheduled task "Iniciar Winlogbeat" has successfully been created.
+
+> schtasks /query /tn "DYNAMIC_UPDATE"
