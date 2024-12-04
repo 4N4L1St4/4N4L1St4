@@ -13,10 +13,11 @@ Seja bem-vindo e boa navegação!
   <img src="https://images.credly.com/size/340x340/images/74790a75-8451-400a-8536-92d792c5184a/CompTIA_Security_2Bce.png" alt="CompTIA Security+" width="100" height="100"/>
   <img src="https://images.credly.com/size/340x340/images/066da2d7-4808-4f43-a1b9-f32f13872084/image.png" alt="Sophos Engineer" width="100" height="100"/>
   <img src="https://images.credly.com/size/340x340/images/22a0ece5-ff05-4594-8320-25e55e9ae203/image.png" alt="QRadar Foundation" width="100" height="100"/>
-  <img src="https://media.licdn.com/dms/image/C560BAQEB6dJsFp9yCQ/company-logo_200_200/0/1630670621920/tenableinc_logo?e=1730332800&v=beta&t=eOz0E4u7aMxM1uk2mSNFFTxsckxzQXJ7sWr2DvDWaUE" alt="Tenable" width="100" height="100"/>
+  <img src="https://media.licdn.com/dms/image/v2/D4E0BAQEo0oiUe9M3Gg/company-logo_200_200/company-logo_200_200/0/1730138267204/tenableinc_logo?e=1741219200&v=beta&t=xNnkSjisW7Qu05AIE4PKVU3cbJGKdrExE8yUznXrMC8" alt="Tenable" width="100" height="100"/>
 </p>
 
 ### 📚 Formação:
+- **Pós-graduação Lato Sensu - Especialização, Cibersegurança Ofensiva** - Dominar a proteção de sistemas, a identificação de ameaças e a execução de auditorias e simulações ofensivas.
 - **Computação Forense e Segurança da Informação** - Pós-graduação: Especialização em proteção de dados, produção de laudos e pareceres, análise de vestígios cibernéticos e recuperação de evidências.
 - **Análise e Desenvolvimento de Sistemas**: Capacitação em projeto, documentação, especificação, teste, implementação e manutenção de sistemas computacionais e software.
 - **Técnico em Redes de Computadores**: Formação em instalação, configuração e manutenção de redes de computadores, com destaque como monitor de laboratório.
