@@ -76,6 +76,81 @@ Ao realizar Threat Hunting, é importante considerar aspectos legais e éticos, 
 - **Privacidade dos Dados:** Garantir que a busca por ameaças não viole a privacidade dos dados dos usuários.
 - **Autorização e Acordos:** Obter permissão adequada para acessar e analisar dados durante a investigação.
 
+### 8. Ideias para Threat Hunting
+
+#### Descrição:
+---
+
+1. **Detecção de Processos Anômalos**  
+   - **Descrição:** Identifique processos não comuns ou que fogem ao padrão, como executáveis rodando fora de pastas legítimas (ex.: `temp`, `downloads`).  
+   - **Ferramentas:** Sysmon, EDR, ELK.  
+   - **Objetivo:** Detectar malware ou exploração de vulnerabilidades que iniciam processos maliciosos.
+
+---
+
+2. **Busca por Movimentação Lateral**  
+   - **Descrição:** Monitore tentativas de movimentação lateral, como o uso de credenciais comprometidas ou ferramentas como `PsExec` e `WMIC`.  
+   - **Ferramentas:** Sysmon, Splunk, ELK.  
+   - **Objetivo:** Identificar possíveis ataques internos ou a propagação de ransomware.
+
+---
+
+3. **Análise de Comandos via PowerShell**  
+   - **Descrição:** Busque por execuções de comandos PowerShell ofuscados ou invocações suspeitas (`Invoke-Mimikatz`, `Base64`).  
+   - **Ferramentas:** Sysmon, Splunk, Wazuh.  
+   - **Objetivo:** Detectar ataques fileless e atividades de pós-exploração.
+
+---
+
+4. **Monitoramento de Alterações em Registros Críticos**  
+   - **Descrição:** Detecte modificações em chaves de registro que ativem persistência ou bypass de segurança (ex.: `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run`).  
+   - **Ferramentas:** Sysmon, ELK, EDR.  
+   - **Objetivo:** Detectar backdoors e técnicas de persistência.
+
+---
+
+5. **Busca por Conexões DNS Anômalas**  
+   - **Descrição:** Identifique resoluções DNS para domínios com características maliciosas (ex.: strings randômicas, TLDs raros).  
+   - **Ferramentas:** Wireshark, Zeek, ELK.  
+   - **Objetivo:** Detectar C2 (Command and Control) ou exfiltração de dados.
+
+---
+
+6. **Detecção de Uso Não Autorizado de Credenciais**  
+   - **Descrição:** Busque logins simultâneos em diferentes locais ou acessos fora do horário normal de trabalho.  
+   - **Ferramentas:** Active Directory, SIEM.  
+   - **Objetivo:** Identificar credenciais comprometidas e atividades de insiders.
+
+---
+
+7. **Análise de Arquivos de Log para Tentativas de Exploração**  
+   - **Descrição:** Procure por padrões de exploração, como strings de SQL Injection, RCE ou Buffer Overflow.  
+   - **Ferramentas:** Wazuh, Splunk, Logstash.  
+   - **Objetivo:** Identificar tentativas de explorar vulnerabilidades conhecidas.
+
+---
+
+8. **Detecção de Ataques por Engenharia Social**  
+   - **Descrição:** Analise logs de e-mails e acessos para identificar mensagens com links de phishing ou anexos maliciosos.  
+   - **Ferramentas:** Mail Gateway, SIEM.  
+   - **Objetivo:** Mitigar ataques de phishing direcionados.
+
+---
+
+9. **Busca por Comunicação com Endpoints Não Autorizados**  
+   - **Descrição:** Monitore conexões para IPs fora do perfil de tráfego da organização, como destinos em países incomuns.  
+   - **Ferramentas:** Firewall Logs, Zeek, Splunk.  
+   - **Objetivo:** Identificar exfiltração de dados ou C2.
+
+---
+
+10. **Hunting em Dispositivos IoT**  
+   - **Descrição:** Monitore dispositivos IoT para comportamentos anômalos, como alterações na configuração ou tráfego não esperado.  
+   - **Ferramentas:** Network Monitoring Tools, ELK.  
+   - **Objetivo:** Detectar acessos indevidos ou explorações de IoT.
+
+---
+
 ### Conclusão
 
 Threat Hunting é uma prática essencial para identificar e mitigar ameaças avançadas e sofisticadas antes que elas possam causar danos significativos. Utilizando técnicas proativas e ferramentas especializadas, as organizações podem melhorar significativamente sua postura de segurança e responder mais rapidamente a incidentes.
