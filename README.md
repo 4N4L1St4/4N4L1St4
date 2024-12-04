@@ -23,16 +23,27 @@ Seja bem-vindo e boa navegação!
 
 ## 💼 Minhas Atividades
 
-- Mapeamento de camadas de segurança na empresa
-- Análise de superfícies de ataque
-- Prática em CTI, OSINT e TTPs
-- Mapeamento de novos vazamentos e CVEs
-- Gestão de resolução de vulnerabilidades
-- Acompanhamento de rotina de pentest
+- Projetar e implementar arquiteturas de segurança robustas para proteger ativos de informação.
+- Mapeamento de camadas de segurança na empresa.
+- Implementar e gerenciar sistemas de monitoramento e detecção de intrusões.
+- Criar e atualizar políticas e procedimentos de segurança com base em melhores práticas e lições aprendidas.
+- Promover uma cultura de melhoria contínua em segurança, incorporando feedback das simulações e experiências passadas.
+- Conduzir avaliações de segurança e análise de vulnerabilidades para identificar pontos fracos na infraestrutura.
+- Gestão de resolução de vulnerabilidades.
+- Mapeamento de novos vazamentos e CVEs.
+- Análise de superfícies de ataque.
+- Facilitar a comunicação entre Red Team e Blue Team para alinhar estratégias de ataque e defesa.
+- Participar de simulações de testes de penetração e exercícios de resposta a incidentes.
+- Acompanhamento de rotina de pentest.
 - Melhoria das atividades do SIEM:
-  - Atendimento a chamados abertos pelo SIEM
-  - Adição de fontes de logs com base no mapeamento de superfícies de ataque
-  - Criação de casos de uso com base nas atividades de GV e relatórios de pentest
+  - Atendimento a chamados abertos pelo SIEM.
+  - Adição de fontes de logs com base no mapeamento de superfícies de ataque.
+  - Criação de casos de uso com base nas atividades de GV e relatórios de pentest.
+- Pesquisar e avaliar novas ferramentas e tecnologias de segurança para fortalecer a postura de segurança da organização.
+- Prática em CTI, OSINT e TTPs.
+- Conduzir treinamentos sobre segurança da informação e conscientização sobre ciberameaças para as equipes.
+- Documentar processos, políticas e resultados de testes de segurança.
+- Elaborar relatórios técnicos e gerenciais para a alta administração.
 
 ## 🚀 Projetos
 
