@@ -62,7 +62,7 @@
   - **Descrição:** Localiza um usuário no Active Directory pelo SAMID.
 
   ```
-  dsquery user -samid 216265
+  dsquery user -samid NomeDoUsuario
   ```
 
 ### 7. **Verificação do Status de Serviço com SC**
@@ -259,7 +259,7 @@
   # Em um único target
   C:\> logoff SessionID /server:hostname_or_ip
   # Em toda uma rede e baseado no nome de usuário
-  FOR /L %i IN (1,1,254) DO @(ping -w 1 -n 1 172.16.0.%i 2>NUL | findstr /I "TTL=12" 1>NUL 2>NUL && echo Address: 172.16.0.%i && @(for /F "tokens=1,2" %A in ('"query session /server:172.16.0.%i 2>NUL | findstr "cyberark-domicio" 2>NUL"') DO (logoff %B /server:172.16.0.%i)))
+  FOR /L %i IN (1,1,254) DO @(ping -w 1 -n 1 172.16.0.%i 2>NUL | findstr /I "TTL=12" 1>NUL 2>NUL && echo Address: 172.16.0.%i && @(for /F "tokens=1,2" %A in ('"query session /server:172.16.0.%i 2>NUL | findstr "NomeDoUsuario" 2>NUL"') DO (logoff %B /server:172.16.0.%i)))
   ```
 
 ### 43. **Listar Todos os Serviços na Máquina (Verboso) (_`cmd`_)**
@@ -1034,13 +1034,13 @@
   fi
   ```
   1. Verificar o Mapeamento Atual
-# curl -k --user <ColoqueSeuUsuario>:<ColoqueSuaSenha> -X GET 'https://172.16.0.171:9200/winlogbeat-7.15.2-2024.09.04-000069/_mapping'
+ curl -k --user <ColoqueSeuUsuario>:<ColoqueSuaSenha> -X GET 'https://172.16.0.171:9200/winlogbeat-7.15.2-2024.09.04-000069/_mapping'
 
 2. Comparar com o Template
-# curl -k --user <ColoqueSeuUsuario>:<ColoqueSuaSenha> -X GET 'https://172.16.0.171:9200/_template/winlogbeat-7.15.2'
+ curl -k --user <ColoqueSeuUsuario>:<ColoqueSuaSenha> -X GET 'https://172.16.0.171:9200/_template/winlogbeat-7.15.2'
 
 3. Copiando índice de A para B
-# curl -k --user <ColoqueSeuUsuario>:<ColoqueSuaSenha> -X POST 'https://172.16.0.171:9200/_reindex' -H 'Content-Type: application/json' -d '{"source": {"index": "winlogbeat-7.15.2-2024.09.03-000067"}, "dest": {"index": "winlogbeat-7.15.2-2024.09.04-000068"}}'
+ curl -k --user <ColoqueSeuUsuario>:<ColoqueSuaSenha> -X POST 'https://172.16.0.171:9200/_reindex' -H 'Content-Type: application/json' -d '{"source": {"index": "winlogbeat-7.15.2-2024.09.03-000067"}, "dest": {"index": "winlogbeat-7.15.2-2024.09.04-000068"}}'
 
 4. Verificar o Status da Política ILM
 curl -k --user <ColoqueSeuUsuario>:<ColoqueSuaSenha> -X GET 'https://172.16.0.171:9200/_ilm/policy'
