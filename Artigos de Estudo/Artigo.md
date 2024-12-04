@@ -27,7 +27,6 @@ Não se assuste com a quantidade de informações! É normal sentir-se sobrecarr
 
 ## 📚 ARTIGOS
 
----------------------------------
 - [001 Artigo](https://github.com/4N4L1St4/4N4L1St4/blob/main/Artigos%20de%20Estudo/Artigos/A00001%20-%20Implanta%C3%A7%C3%A3o%20de%20uma%20rede%20segura_p1.md) - Protocolos seguros | Implantação de uma rede segura | Parte I
 - [002 Artigo](https://github.com/4N4L1St4/4N4L1St4/blob/main/Artigos%20de%20Estudo/Artigos/A00002%20-%20Implanta%C3%A7%C3%A3o%20de%20uma%20rede%20segura_p2.md) - Implantação de uma rede segura | Parte II
 - [003 Artigo](https://github.com/4N4L1St4/4N4L1St4/blob/main/Artigos%20de%20Estudo/Artigos/A00003%20-%20Antivirus%2C%20Anti-Malware%2C%20DLP%20e%20EDR%20para%20uma%20Prote%C3%A7%C3%A3o%20Abrangente%20de%20Endpoints.md) - Antivirus, Anti-Malware, DLP e EDR para uma Proteção Abrangente de Endpoints
