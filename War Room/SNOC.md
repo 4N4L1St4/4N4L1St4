@@ -151,4 +151,4 @@
  
   ## ⚠️ Lista de Comandos
 - **Gerenciamento de Abuso de Scripts**
-  - **[Lista de Comandos](https://github.com/4N4L1St4/4N4L1St4/blob/d52658773e2d5117f44d77954abd43387dd7677b/War%20Room/Command.md) **
+  - **[Lista de Comandos](https://github.com/4N4L1St4/4N4L1St4/blob/main/War%20Room/Comandos.md) **
