@@ -33,6 +33,7 @@ A regra utiliza os seguintes eventos para identificar a criação de GPOs:
 |    Wazuh (SIEM)              |
 | (Análise e Alertas)          |
 -------------------------------
+```
 
 ### Possíveis Falsos Positivos
 
