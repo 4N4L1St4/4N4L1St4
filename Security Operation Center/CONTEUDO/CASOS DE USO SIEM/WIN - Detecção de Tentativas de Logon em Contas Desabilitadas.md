@@ -89,33 +89,19 @@ Quando uma tentativa de logon em uma **conta desabilitada** é detectada, é cru
 Verifique se a conta foi desabilitada **intencionalmente** ou se houve um **erro administrativo**. Ações humanas equivocadas podem ser corrigidas rapidamente, evitando alarmes falsos. Para revisar o status da conta no Windows, use o comando:
 
 ```
-Get-ADUser -Identity "nome_da_conta" -Properties AccountDisabled
+Get-ADUser -Identity "nome_da_conta" | Select-Object Name, Enabled
 ```
 
-### 2. **🔒 Bloquear Tentativas Adicionais**
-
-Implemente políticas de bloqueio temporário ou regras de firewall para impedir que novas tentativas de logon sejam realizadas, minimizando o impacto da ameaça. Você pode bloquear a conta usando o comando:
-
-```
-Disable-ADAccount -Identity "nome_da_conta"
-```
-
-Além disso, você pode configurar um bloqueio temporário usando o Windows Firewall:
-
-```
-New-NetFirewallRule -DisplayName "Bloqueio Logon" -Direction Inbound -Protocol TCP -Action Block -LocalPort 3389
-```
-
-### 3. **📜 Auditar os Logs de Segurança**
+### 2. **📜 Auditar os Logs de Segurança**
 
 Analise detalhadamente os logs do Active Directory e outros eventos relacionados. Isso ajudará a identificar se houve uma tentativa de comprometimento e a traçar o caminho do invasor, caso tenha ocorrido. Para verificar os logs de eventos de segurança do Windows, use o comando:
 
 ```
-Get-WinEvent -LogName Security | Where-Object {$_.Id -eq 4625}
+Get-WinEvent -LogName Security -ComputerName "endereço_do_AD" | Where-Object {$_.Id -eq 4625}
 ```
 
 Ou, para filtrar eventos relacionados a uma conta específica:
 
 ```
-Get-WinEvent -LogName Security | Where-Object {$_.Message -like "*nome_da_conta*"}
+Get-WinEvent -LogName Security -ComputerName "endereço_do_AD" | Where-Object {$_.Message -like "*nome_da_conta*"}
 ```
