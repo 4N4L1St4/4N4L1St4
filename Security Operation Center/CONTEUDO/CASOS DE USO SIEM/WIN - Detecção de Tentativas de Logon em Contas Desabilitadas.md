@@ -1,5 +1,5 @@
 
-# Necessidade do Caso de Uso: Detecção de Tentativas de Logon em Contas Desabilitadas
+# WIN - Detecção de Tentativas de Logon em Contas Desabilitadas
 
 ## :dart: Descrição da Regra
 
@@ -22,16 +22,6 @@ O tipo de evento é uma tentativa de logon falha, que pode ocorrer por vários m
 - **Senha incorreta**
 - **Conta desabilitada**
 
-## :dart: Remediação em Caso de Crises
-
-Quando uma tentativa de logon é detectada em uma conta desabilitada, é fundamental agir rapidamente para mitigar os riscos. As ações recomendadas incluem:
-
-1. **Bloquear Tentativas Adicionais**: Utilize políticas de bloqueio temporário ou regras de firewall para impedir novos logons.
-
-2. **Revisar a Conta do Usuário**: Verifique se a conta foi desabilitada intencionalmente ou se houve algum erro administrativo.
-
-3. **Auditar os Logs de Segurança**: Analise os logs do **Active Directory** e outros eventos relacionados para determinar se houve uma tentativa de comprometimento.
-
 ## :dart: Criando a Regra no Wazuh
 
 A regra para detectar tentativas de logon em contas desabilitadas pode ser configurada no **Wazuh** da seguinte maneira:
@@ -49,3 +39,13 @@ A regra para detectar tentativas de logon em contas desabilitadas pode ser confi
   </rule>
 </group>
 ```
+
+## :dart: Remediação em Caso de Crises
+
+Quando uma tentativa de logon é detectada em uma conta desabilitada, é fundamental agir rapidamente para mitigar os riscos. As ações recomendadas incluem:
+
+1. **Bloquear Tentativas Adicionais**: Utilize políticas de bloqueio temporário ou regras de firewall para impedir novos logons.
+
+2. **Revisar a Conta do Usuário**: Verifique se a conta foi desabilitada intencionalmente ou se houve algum erro administrativo.
+
+3. **Auditar os Logs de Segurança**: Analise os logs do **Active Directory** e outros eventos relacionados para determinar se houve uma tentativa de comprometimento.
