@@ -15,6 +15,27 @@ A regra utiliza os seguintes eventos para identificar tentativas de logon falhas
   
 - **eventType = "Win-Security-4625" AND winLogonFailCode2 CONTAIN "0xC0000072"**: Esse evento ocorre quando uma tentativa de logon em uma conta desabilitada falha, identificado pelo código de erro 0xC0000072.
 
+# Diagrama de Encaminhamento de Log para o Wazuh
+
+## Fluxo de Detecção de Tentativas de Logon em Contas Desabilitadas
+
+```plaintext
+-------------------------------
+|       Máquina Cliente        |
+|  (Tentativa de Logon)        |
+-------------------------------
+            |
+            v
+-------------------------------
+|       Máquina Alvo (AD)      |
+| (Geração de Eventos de Log)  |
+-------------------------------
+            |
+            v
+-------------------------------
+|    Wazuh (SIEM)              |
+| (Análise e Alertas)          |
+
 ### Possíveis Falsos Positivos
 
 O tipo de evento é uma tentativa de logon falha, que pode ocorrer por vários motivos, incluindo:
