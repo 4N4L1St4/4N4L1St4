@@ -3,7 +3,7 @@
 ## :dart: Introdução
 
 ### Descrição da Regra
-A regra "Disabled Windows Account Logon Attempts" é projetada para detectar tentativas de logon em contas que foram desabilitadas no Active Directory. Quando um usuário ou sistema tenta autenticar em uma conta desabilitada, o SIEM gera um alerta para que a equipe de segurança investigue a atividade.
+A regra "Disabled Windows Account Logon Attempts" é projetada para detectar tentativas de logon em contas que foram desabilitadas no Active Directory. Quando um usuário ou sistema tenta autenticar em uma conta desabilitada, o SIEM gera um alerta para que a equipe de segurança investigue a atividade.1
 
 
 ## :dart: Como a Regra Funciona
