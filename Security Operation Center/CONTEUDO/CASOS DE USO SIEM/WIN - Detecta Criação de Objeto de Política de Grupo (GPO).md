@@ -16,7 +16,7 @@ A regra utiliza os seguintes eventos para identificar a criação de GPOs:
 
 ## 🌐 Fluxo de Detecção de Criação de GPO
 
-&&
+```
 -------------------------------
 |       Máquina Cliente        |
 |  (Criando ou Modificando GPO)|
@@ -45,7 +45,7 @@ A criação de GPOs pode ocorrer por várias razões administrativas legítimas,
 
 A regra para detectar a criação de GPOs pode ser configurada no **Wazuh** da seguinte maneira:
 
-&&
+```
 <group name="windows,">
   <rule id="100010" level="7">
     <decoded_as>json</decoded_as>
@@ -65,16 +65,16 @@ Quando a criação de um **GPO inesperado** é detectada, é essencial agir rapi
 ### 1. **🔍 Revisar o GPO Criado**
 Verifique quem foi o responsável pela criação do GPO e qual a finalidade da política configurada. Isso pode ser feito no Console de Gerenciamento de Política de Grupo (GPMC). Para revisar o GPO no PowerShell, use o comando:
 
-&&
+```
 Get-GPO -Name "nome_do_GPO"
 
 ### 2. **📜 Auditar os Logs de Segurança**
 Verifique os logs de eventos de segurança do Active Directory para entender as circunstâncias em torno da criação do GPO e identificar quem fez a alteração. Para revisar os eventos no PowerShell, use:
 
-&&
+```
 Get-WinEvent -LogName Security -ComputerName "endereço_do_AD" | Where-Object {$_.Id -eq 4732}
 
 Ou, para filtrar eventos relacionados a um GPO específico:
 
-&&
+```
 Get-WinEvent -LogName Security -ComputerName "endereço_do_AD" | Where-Object {$_.Message -like "*nome_do_GPO*"}
