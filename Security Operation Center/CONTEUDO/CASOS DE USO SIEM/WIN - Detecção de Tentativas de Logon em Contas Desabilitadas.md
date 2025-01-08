@@ -36,7 +36,7 @@ A regra utiliza os seguintes eventos para identificar tentativas de logon falhas
 |    Wazuh (SIEM)              |
 | (Análise e Alertas)          |
 -------------------------------
-
+```
 
 ### Possíveis Falsos Positivos
 
