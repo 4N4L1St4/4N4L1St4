@@ -58,6 +58,7 @@ A regra para detectar a criação de GPOs pode ser configurada no **Wazuh** da s
     <field name="winGPOOperation">Create</field>
   </rule>
 </group>
+```
 
 ## :dart: Remediação em Caso de Crises
 
