@@ -69,13 +69,13 @@ Verifique quem foi o responsável pela criação do GPO e qual a finalidade da p
 
 ```
 Get-GPO -Name "nome_do_GPO"
-
+```
 ### 2. **📜 Auditar os Logs de Segurança**
 Verifique os logs de eventos de segurança do Active Directory para entender as circunstâncias em torno da criação do GPO e identificar quem fez a alteração. Para revisar os eventos no PowerShell, use:
 
 ```
 Get-WinEvent -LogName Security -ComputerName "endereço_do_AD" | Where-Object {$_.Id -eq 4732}
-
+```
 Ou, para filtrar eventos relacionados a um GPO específico:
 
 ```
