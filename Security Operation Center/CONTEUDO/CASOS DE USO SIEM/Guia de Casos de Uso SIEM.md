@@ -1,31 +1,42 @@
-<p align="center">
-  <a href="https://www.scnsoft.com/blog-pictures/infrastructure/noc.png">
-    <img src="./images/guia.png" alt="Guia de Casos de Uso SIEM" width="160" height="160">
-  </a>
-  <h1 align="center">🔎 Casos de Uso SIEM</h1>
-</p>
+# Necessidade do Caso de Uso: Detecção de Tentativas de Logon em Contas Desabilitadas
 
-## :dart: O guia para alavancar a sua carreira
+## :dart: Introdução
 
-Este guia explora os principais casos de uso de um SIEM (Security Information and Event Management), destacando como essa ferramenta essencial pode ser utilizada para identificar, investigar e mitigar ameaças de segurança dentro de uma organização. Com exemplos práticos e cenários comuns, você entenderá melhor o valor do SIEM na proteção da infraestrutura de TI.
+A detecção de tentativas de logon em contas desabilitadas no Active Directory é essencial para a segurança cibernética. Quando um usuário ou atacante tenta acessar uma conta desabilitada, isso pode indicar um ataque em andamento ou tentativa de exploração de credenciais que foram comprometidas. Implementar regras de monitoramento eficazes ajuda a detectar esses tipos de atividades, permitindo ações rápidas para mitigar riscos.
 
-## :dart: Conteúdo
+## :dart: Detalhes do Caso de Uso
 
-### 1. Detecção de Ameaças Internas
+Abaixo estão os detalhes sobre a regra que aborda a detecção de tentativas de logon em contas desabilitadas:
 
-#### Descrição:
-O SIEM pode monitorar e correlacionar eventos em tempo real para detectar atividades anômalas vindas de dentro da organização, como acessos não autorizados, uso indevido de dados sensíveis, e comportamentos fora do padrão de usuários internos.
+| CAMADA            | NOME DA REGRA                             | IMPLANTADO ? | CATEGORIA DA REGRA | DESCRIÇÃO DA REGRA                                                | FILTRO DE CONDIÇÃO                                                                                         | DESCRIÇÃO DO TIPO DE EVENTO | REMEDIAÇÃO EM CRISES                | SUB CATEGORIA DA REGRA |
+|-------------------|------------------------------------------|--------------|--------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|----------------------------|-------------------------------------|-------------------------|
+| Active Directory  | Disabled Windows Account Logon Attempts  | NÃO          | Security           | Detecta tentativas de logon para contas desabilitadas            | `eventType = "Win-Security-531" OR (eventType = "Win-Security-4625" AND winLogonFailCode2 CONTAIN "0xC0000072")` | Tentativas de logon falhas    | Bloquear tentativas e revisar logins | Credential Access       |
 
-#### Planilha de Exemplo de Detecção de Ameaças Internas
+## :dart: Como a Regra Funciona
 
-| Nome da Regra | Categoria da Regra | Descrição da Regra | Tipo de Evento | Condição de Filtro |
-|---------------|--------------------|--------------------|----------------|--------------------|
-| Baseline De Processos WAF | Disponibilidade | Detecta o Processo de Aumento de Requisição Para uma Aplicação |  |  |
-| Carbon Black Fatal Errors | Security | Detects fatal Carbon Black errors | Carbon Black Fatal Errors | eventType IN (Group@PH_SYS_EVENT_Fatal) AND eventType CONTAIN ""CarbonBlack-"" |
-| Cisco AVC: Application Flows with QoS Queue Packet Drops | Performance | Detecta quedas de pacotes de fila de QoS conforme relatado pelo Cisco 
-| Windows: Non-privileged Usage of Reg or Powershell | Security | Search for usage of reg or Powershell by non-privileged users to modify service configuration in registry. This rule is adapted from https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_non_priv_reg_or_ps.yml | Windows: Non-privileged Usage of Reg or Powershell | eventType=""Win-Sysmon-1-Create-Process"" AND ((command REGEXP "".*reg .*"" AND command REGEXP "".*add.*"") OR command REGEXP "".* sp .*|.*new-itemproperty.*|.*powershell.*|.*set-itemproperty.*"") AND (integrityLevel=""Medium"" AND command REGEXP "".*ControlSet.*"" AND command REGEXP "".*Services.*"" AND command REGEXP "".*FailureCommand.*|.*ImagePath.*|.*ServiceDLL.*"") |
+### Descrição da Regra
+A regra "Disabled Windows Account Logon Attempts" é projetada para detectar tentativas de logon em contas que foram desabilitadas no Active Directory. Quando um usuário ou sistema tenta autenticar em uma conta desabilitada, o SIEM gera um alerta para que a equipe de segurança investigue a atividade.
 
+### Filtro de Condição
+O filtro de condição utilizado para identificar as tentativas de logon falhas envolve os seguintes eventos:
+- `eventType = "Win-Security-531"`: Esse evento indica que houve uma tentativa de logon com uma conta desabilitada.
+- `eventType = "Win-Security-4625" AND winLogonFailCode2 CONTAIN "0xC0000072"`: Esse evento é gerado quando há uma tentativa de logon em uma conta desabilitada, identificado pelo código de erro `0xC0000072`.
 
-### Conclusão
+### Tipo de Evento
+O tipo de evento é uma tentativa de logon falha. Esse tipo de evento pode ocorrer por diversos motivos, como uma senha incorreta ou uma conta que foi desativada.
 
-Os casos de uso do SIEM são fundamentais para qualquer estratégia de segurança cibernética. Com a capacidade de detectar, investigar e responder a ameaças em tempo real, o SIEM torna-se uma peça central na defesa proativa da organização, garantindo a integridade, confidencialidade e disponibilidade dos dados.
+## :dart: Remediação em Crises
+
+Quando uma tentativa de logon é detectada para uma conta desabilitada, é crucial agir rapidamente para mitigar o risco:
+1. **Bloquear tentativas adicionais**: Impedir novos logons usando políticas de bloqueio temporário ou regras de firewall.
+2. **Revisar a conta do usuário**: Verificar se a conta foi desabilitada intencionalmente ou se houve um erro administrativo.
+3. **Auditar os logs de segurança**: Analisar os logs do Active Directory e outros eventos relacionados para verificar se houve uma tentativa de comprometimento.
+
+## :dart: Subcategoria da Regra
+
+Esta regra se enquadra na subcategoria "Credential Access", que envolve a tentativa de acesso não autorizado às credenciais do sistema.
+
+## :dart: Conclusão
+
+A detecção de tentativas de logon em contas desabilitadas é um componente essencial da estratégia de segurança de uma organização. Garantir que tais tentativas sejam monitoradas e investigadas pode ajudar a prevenir ataques baseados em credenciais comprometidas ou ações maliciosas por usuários internos ou atacantes externos.
+
