@@ -42,10 +42,14 @@ A regra para detectar tentativas de logon em contas desabilitadas pode ser confi
 
 ## :dart: Remediação em Caso de Crises
 
-Quando uma tentativa de logon é detectada em uma conta desabilitada, é fundamental agir rapidamente para mitigar os riscos. As ações recomendadas incluem:
+Quando uma tentativa de logon em uma **conta desabilitada** é detectada, é crucial agir com rapidez e precisão para mitigar os riscos. As ações imediatas recomendadas incluem:
 
-1. **Bloquear Tentativas Adicionais**: Utilize políticas de bloqueio temporário ou regras de firewall para impedir novos logons.
+### 1. **🔒 Bloquear Tentativas Adicionais**
+Implemente **políticas de bloqueio temporário** ou **regras de firewall** para impedir que novas tentativas de logon sejam realizadas, minimizando o impacto da ameaça.
 
-2. **Revisar a Conta do Usuário**: Verifique se a conta foi desabilitada intencionalmente ou se houve algum erro administrativo.
+### 2. **🔍 Revisar a Conta do Usuário**
+Verifique se a conta foi desabilitada **intencionalmente** ou se houve um **erro administrativo**. Ações humanas equivocadas podem ser corrigidas rapidamente, evitando alarmes falsos.
 
-3. **Auditar os Logs de Segurança**: Analise os logs do **Active Directory** e outros eventos relacionados para determinar se houve uma tentativa de comprometimento.
+### 3. **📜 Auditar os Logs de Segurança**
+Analise detalhadamente os **logs do Active Directory** e outros eventos relacionados. Isso ajudará a identificar se houve uma **tentativa de comprometimento** e a traçar o caminho do invasor, caso tenha ocorrido.
+
