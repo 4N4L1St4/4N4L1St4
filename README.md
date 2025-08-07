@@ -69,14 +69,6 @@ Seja bem-vindo e boa navegação!
   [Link para o projeto Artigos](https://github.com/4N4L1St4/4N4L1St4/blob/main/Artigos%20de%20Estudo/Artigo.md)
 
 
-
-
-## 📫 Contato
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-oliveira-215812184/)
-[![Gmail](https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white)](mailto:noc@controleti.net)
-[![Instagram](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/analistagabriel.exe/)
-
 ## 🌐 Grupos Associados
 
 <p align="center">
